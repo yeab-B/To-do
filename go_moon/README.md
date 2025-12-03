@@ -1,16 +1,17 @@
-# go_moon
+\
 
-A new Flutter project.
+# Go_Moon – My First Mobile App
 
-## Getting Started
+**Go_Moon** is my first mobile app project, designed as a simple one-page application. Through this project, I learned the basics of mobile app development, including how to:
 
-This project is a starting point for a Flutter application.
+* Insert images
+* Add text
+* Use layout widgets like **Row**, **Column**, and **Stack**
 
-A few resources to get you started if this is your first Flutter project:
+The app displays images and content in a clean, organized layout.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+
+![Screenshot 1](assets/images/Screenshot%20From%202025-12-03%2011-42-16.png)
+![Screenshot 2](assets/images/Screenshot%20From%202025-12-03%2011-42-39.png)
