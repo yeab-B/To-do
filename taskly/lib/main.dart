@@ -3,9 +3,14 @@ import 'package:taskly/pages/home_page.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
-   await Hive.initFlutter("hive_boxes");
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Hive.initFlutter();
+  await Hive.openBox('taskBox');
+
+  runApp(MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -15,10 +20,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Taskly',
-      theme: ThemeData(
+ theme: ThemeData(
+  useMaterial3: false,
+  primarySwatch: Colors.red,
+),
 
-       primarySwatch: Colors.red,
-      ),
       home: HomePage() ,
     );
   }
