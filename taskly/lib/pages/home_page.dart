@@ -22,6 +22,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       body:_taskList(),
+      floatingActionButton: _addTaskButton(),
     );
   }
     Widget _taskList() {
@@ -33,6 +34,12 @@ class _HomePageState extends State<HomePage> {
           trailing: Icon(Icons.check_circle_outline, color: Colors.red),
         ),
       ],
+    );
+  }
+  Widget _addTaskButton() {
+    return FloatingActionButton(
+      onPressed: () {},
+      child: const Icon(Icons.add),
     );
   }
 }
