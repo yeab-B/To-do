@@ -1,4 +1,3 @@
-\
 
 # Go_Moon – My First Mobile App
 
